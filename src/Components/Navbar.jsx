@@ -6,7 +6,7 @@ import { IoCartOutline } from 'react-icons/io5'
 import { CgClose } from 'react-icons/cg';
 import { useCart } from '../context/CartContext'
 import { HiMenuAlt3 } from "react-icons/hi";
-import ResponsiveMenu from "../components/ResponsiveMenu";
+import ResponsiveMenu from "./ResponsiveMenu";
 
 import Navbar from "./components/Navbar"; 
 
