@@ -8,6 +8,7 @@ import { useCart } from '../context/CartContext'
 import { HiMenuAlt3 } from "react-icons/hi";
 import ResponsiveMenu from "../components/ResponsiveMenu";
 
+import Navbar from "./components/Navbar"; 
 
 
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
