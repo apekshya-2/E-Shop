@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import axios from 'axios'
 
-import Navbar from './Components/Navbar'
-import Footer from '../components/Footer'
+import Footer from './Components/Footer'
 
 import Home from './pages/Home'
 import Products from './pages/Products'
