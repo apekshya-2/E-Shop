@@ -59,7 +59,7 @@ const Cart = ({ location, getLocation }) => {
               <h1 className='text-gray-800 font-bold text-xl'>Delivery Info</h1>
               <div className='flex flex-col space-y-1'>
                 <label>Full Name</label>
-                <input type="text" placeholder='Enter Your Name' className='p-2 rounded-md' defaultValue={user.fullName} />
+                <input type="text" placeholder='Enter Your Name' className='p-2 rounded-md' defaultValue={user?.fullName} />
               </div>
               <div className='flex flex-col space-y-1'>
                 <label>Address</label>
