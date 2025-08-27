@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from '../components/Carousel'
 import MidBanner from '../components/MidBanner' // ✅ fixed casing
-import Features from '../Components/Features'
+import Features from '../components/Features'
 
 const Home = () => {
   return (
