@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { getData } from '../context/DataContext'
-import FilterSection from '../components/FilterSection'
+import FilterSection from '../Components/FilterSection'
 import Loading from '../assets/Loading4.webm'
-import ProductCard from '../components/ProductCard'
-import Pagination from '../components/Pagination'
+import ProductCard from '../Components/ProductCard'
+import Pagination from '../Components/Pagination'
 import Lottie from 'lottie-react'
 import notfound from "../assets/not_found.json"
 

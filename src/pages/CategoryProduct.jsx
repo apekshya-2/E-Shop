@@ -3,7 +3,7 @@ import axios from 'axios'
 import { useParams, useNavigate } from 'react-router-dom'
 import Loading from "../assets/Loading4.webm"
 import { ChevronLeft } from 'lucide-react'
-import ProductListView from '../components/ProductListView'   // ✅ Corrected path
+import ProductListView from '../Components/ProductListView'   // ✅ Corrected path
 
 
 
