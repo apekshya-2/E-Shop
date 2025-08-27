@@ -5,6 +5,8 @@ import axios from 'axios'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 
+
+
 import Home from './pages/Home'
 import Products from './pages/Products'
 import SingleProduct from './pages/SingleProduct'
