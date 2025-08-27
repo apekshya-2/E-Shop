@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import axios from 'axios'
 
-import Footer from './src/Components/Footer'
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 
 import Home from './pages/Home'
 import Products from './pages/Products'
@@ -11,6 +12,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Cart from './pages/Cart'
 import { CategoryProduct } from './pages/CategoryProduct'
+
 
 
 const App = () => {
